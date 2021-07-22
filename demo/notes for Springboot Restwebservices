@@ -1,0 +1,30 @@
+  
+  h2 is in memory database of springboot
+  it is generally user for unit testing
+  It stores data in memory, not persist the data on disk
+  
+   ### Versioning
+   
+   1.Media Type Versioning or("Content Negotiation,Accept Headers)
+      used in Github
+   2.(Custom) headers  versioning
+       Microsoft
+   3.URI Versioning
+      Twitter
+   4.Request Parameter Versioning 
+      Amazon
+   5. Factors
+      URI pollution
+      Misuse of http requests
+      caching
+      can we excute the request on the browser? no
+      API documentation
+      No perfect solution        
+      
+      #Table Structure sql
+      create table user(
+      id integer not null,
+      birth_date timestamp,
+      name varchar(255),
+      primary key(id)
+      )
